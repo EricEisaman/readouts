@@ -6,7 +6,7 @@ window.config = {
  favicon:"https://cdn.glitch.com/684a531a-502e-4b52-a097-a4bc6aaed6cb%2Fstar.ico",
  theme:{
   // https://fonts.google.com/ examples: Kirang Haerang, Megrim, Permanent Marker, Orbitron, Monoton
-  fontFamily:"Creepster",
+  fontFamily:"New Rocker",
   fontColor:"#e89d25",
   formColor:"#f7d85d",
   overlayColor:"rgba(226, 204, 136, 0.8)",
@@ -116,9 +116,20 @@ window.config = {
      {type:'scoreboard',scale:'16 10 0.1',color:'#1f7020',
       positions:['0 8 -24','-8 8 -32','0 8 -40','8 8 -32'],
       rotations:['0 0 0','0 270 0','0 180 0','0 90 0'],
-      textAttributes:{value:'Welcome to\nDoge Coin',color:'orange',scale:'8 8 1',align:'center',shader:'msdf',
-                      position:'0 -1.7 0',
-                      font:'https://raw.githubusercontent.com/etiennepinchon/aframe-fonts/master/fonts/creepster/Creepster-Regular.json'}
+      textAttributes:{value:'Welcome to\nDoge Coin',color:'orange',scale:'9 9 1',align:'center',shader:'msdf',
+                      position:'0 -1.5 0',
+                      font:'https://raw.githubusercontent.com/etiennepinchon/aframe-fonts/master/fonts/newrocker/NewRocker-Regular.json'}
+     },
+     {type:'instructions',scale:'8 5 0.1',color:'orange',
+      positions:['-28 2.5 -15'],
+      rotations:['0 70 0'],
+      textAttributes:{value:
+`Doge Coin Game Instructions:
+=========================
+1) Collect Doge Coins
+2) Be Friendly!`,color:'white',scale:'2 2 1',align:'left',shader:'msdf',
+                      position:'-3.5 0 0',
+                      font:'https://raw.githubusercontent.com/etiennepinchon/aframe-fonts/master/fonts/newrocker/NewRocker-Regular.json'}
      }  
    ]
  },
